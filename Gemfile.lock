@@ -1,0 +1,23 @@
+PATH
+  remote: .
+  specs:
+    nanoc-bluecloth (1.0.0)
+      bluecloth
+      nanoc-core
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bluecloth (2.2.0)
+    minitest (5.0.6)
+    nanoc-core (4.0.0a1)
+    rake (10.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler
+  minitest
+  nanoc-bluecloth!
+  rake
